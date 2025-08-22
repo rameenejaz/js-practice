@@ -3,3 +3,5 @@ const swap = (num1, num2) => {
 }
 
 console.log(swap(6,7))
+
+
