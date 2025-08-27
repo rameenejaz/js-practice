@@ -3,10 +3,10 @@ function binaryFunction(nums, target) {
     let right=nums.length-1;
     while (right>=left) {
         let middle= Math.floor((right+left)/2);
-        if (target==nums[middle]) {
+        if (target===nums[middle]) {
             return middle;
         }
-        else if (target==nums[right]) {
+        else if (target<nums[middle]) {
             right=middle-1;
         }
         else {
@@ -15,3 +15,8 @@ function binaryFunction(nums, target) {
     }
     return -1;
 }
+
+let arr=[1,2,4,9,25];
+let result=binaryFunction(arr,4);
+console.log("Array: " + arr);
+console.log("Target: " +result);
