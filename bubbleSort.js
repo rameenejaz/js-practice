@@ -11,7 +11,6 @@ function bubbleSort(arr) {
             }
         }
         if(!isSwapped) {
-            
             break;
         }
     }
