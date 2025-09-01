@@ -13,5 +13,5 @@ let arr=[1,2,2,3,4,5];
 let value=2;
 let newLength=removeElement(arr,value);
 console.log("Original Array: " + arr);
-console.log ("After removing" + value +", Array Length: " +newLength);
+console.log ("After removing element" + value +", Array Length: " +newLength);
 console.log(arr.slice(0,newLength));
