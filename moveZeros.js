@@ -12,6 +12,7 @@ var moveZeros=function(nums) {
     }
 }
 
+
 let arr=[1,3,0,7,9,0];
 let newArrayLength=moveZeros(arr);
 console.log("Original Array: " + arr);
