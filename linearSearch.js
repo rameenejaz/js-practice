@@ -10,4 +10,4 @@ function linearSearch(array, target) {
 }
 
 let result=linearSearch(array,10);
-console.log("Element found at index: " +result);
+console.log("Element found at index:" +result);
